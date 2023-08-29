@@ -1,0 +1,183 @@
+.frame{
+    width: 350px;
+    height: 430px;
+    background-image: linear-gradient(rgb(7, 16, 33), rgba(6, 28, 65, 0.89), rgba(42, 72, 145, 0.74), rgba(76, 82, 142, 0.68), rgba(135, 151, 202, 0.54), rgba(188, 186, 199, 0.5));
+    margin: auto;
+    border: 8px solid black;
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+}
+
+.mot1R{
+    width: 205px;
+    height: 55px;
+    background-color: #0C5C74;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.mot1L{
+    width: 100px;
+    height: 60px;
+    background-color: #0C5C74;
+    position: absolute;
+    bottom: 0;
+    right: 150px;
+    transform: skewX(-60deg);
+}
+
+.mot2R{
+    width: 140px;
+    height: 55px;
+    background-color: #0C5C74;
+    position: absolute;
+    bottom: 45px;
+    right: 0;
+}
+
+.mot2L{
+    width: 60px;
+    height: 55px;
+    background-color: #0C5C74;
+    position: absolute;
+    bottom: 60px;
+    right: 118px;
+    transform: skewX(-36deg);
+}
+
+.mot3R{
+    width: 120px;
+    height: 40px;
+    background-color: #0C5C74;
+    position: absolute;
+    bottom: 90px;
+    right: 0;
+}
+
+.mot3L{
+    width: 60px;
+    height: 18px;
+    background-color: #0C5C74;
+    position: absolute;
+    bottom: 115px;
+    right: 85px;
+    transform: skewX(-54deg);
+}
+
+.mot4R{
+    width: 105px;
+    height: 20px;
+    background-color: #0C5C74;
+    position: absolute;
+    bottom: 130px;
+    right: 0;
+}
+
+.mot4L{
+    width: 60px;
+    height: 25px;
+    background-color: #0C5C74;
+    position: absolute;
+    bottom: 130px;
+    right: 63px;
+    transform: skewX(-45deg);
+}
+
+.mot5R{
+    width: 60px;
+    height: 30px;
+    background-color: #0C5C74;
+    position: absolute;
+    bottom: 150px;
+    right: 0;
+}
+
+.mot5L{
+    width: 60px;
+    height: 25px;
+    background-color: #0C5C74;
+    position: absolute;
+    bottom: 155px;
+    right: 32px;
+    transform: skewX(-56deg);
+}
+
+.mot6R{
+    width: 60px;
+    height: 30px;
+    background-color: #0C5C74;
+    position: absolute;
+    bottom: 155px;
+    right: 0;
+}
+
+.mot6L{
+    width: 50px;
+    height: 5px;
+    background-color: #0C5C74;
+    position: absolute;
+    bottom: 165px;
+    right: 43px;
+    transform: skewX(-15deg);
+}
+
+.mot7R{
+    width: 60px;
+    height: 35px;
+    background-color: #0C5C74;
+    position: absolute;
+    bottom: 185px;
+    right: 0;
+}
+
+.mot7L{
+    width: 50px;
+    height: 50px;
+    background-color: #0C5C74;
+    position: absolute;
+    bottom: 170px;
+    right: 31px;
+    transform: skewX(-25deg);
+}
+
+.mot8R{
+    width: 30px;
+    height: 35px;
+    background-color: #0C5C74;
+    position: absolute;
+    bottom: 215px;
+    right: 0;
+}
+
+.mot8L{
+    width: 50px;
+    height: 40px;
+    background-color: #0C5C74;
+    position: absolute;
+    bottom: 220px;
+    right: -1px;
+    transform: skewX(-45deg);
+}
+
+.mot9L{
+    width: 50px;
+    height: 70px;
+    background-color: #0C5C74;
+    position: absolute;
+    bottom: 234px;
+    right: -20px;
+    transform: rotate(67.5deg) skewX(45deg) scaleY(cos(45deg));
+    
+}
+
+.star{
+    width: 1px;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    bottom: 420px;
+    right: 120px;
+}
+
